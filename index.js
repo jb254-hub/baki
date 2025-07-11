@@ -1,4 +1,4 @@
-require('dotenv').config(); // Load .env variables in local dev
+
 
 const express = require('express');
 const session = require('express-session');
