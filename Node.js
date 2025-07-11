@@ -54,7 +54,7 @@ initDB().catch(err => {
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://127.0.0.1:5500', 'https://your-frontend-domain.com'], // Add your deployed frontend domain
+  origin: ['http://127.0.0.1:5500', 'https://bookingcentre.site/'], // Add your deployed frontend domain
   credentials: true
 }));
 
@@ -63,7 +63,7 @@ app.use(session({
     pool: pgPool,
     tableName: 'session'
   }),
-  secret: 'your_super_secret_session_key',
+  secret: 'hgh78899ghj',
   resave: false,
   saveUninitialized: false,
   cookie: {
